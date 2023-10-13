@@ -171,7 +171,7 @@ void solve()
     if (n > 3)
     {
         string num = s.substr(s.length() - 3);
-        // cout << "This is the sub string: " << num << endl;
+       
 
         if (stoi(num) % 8 == 0)
         {
@@ -180,7 +180,7 @@ void solve()
         else
         {
             num[num.size() - 1] = '0';
-            // cout << num << endl;
+          
             if (stoi(num) % 8 == 0)
             {
                 s[s.size() - 3] = num[0];
@@ -192,7 +192,6 @@ void solve()
             {
                 num[num.size() - 1] = '2';
 
-                // cout << num << endl;
                 if (stoi(num) % 8 == 0)
                 {
                     s[s.size() - 3] = num[0];
@@ -204,7 +203,6 @@ void solve()
                 {
                     num[num.size() - 1] = '4';
 
-                    // cout << num << endl;
                     if (stoi(num) % 8 == 0)
                     {
                         s[s.size() - 3] = num[0];
@@ -216,7 +214,6 @@ void solve()
                     {
                         num[num.size() - 1] = '6';
 
-                        // cout << num << endl;
                         s[s.size() - 3] = num[0];
                         s[s.size() - 2] = num[1];
                         s[s.size() - 1] = num[2];
