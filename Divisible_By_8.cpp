@@ -262,20 +262,13 @@ void solve()
                         else
                         {
                             s[s.size() - 1] = '6';
-                            if (stoi(s) % 8 == 0)
-                            {
-                                cout << s << endl;
-                            }
-                            else
-                            {
-                                cout << -1 << endl;
-                            }
+
+                            cout << s << endl;
                         }
                     }
                 }
             }
         }
-        
     }
 }
 int main()
